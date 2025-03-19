@@ -9,6 +9,8 @@ interface GoogleFitData {
   activeMinutes: number;
 }
 
+const VITE_GOOGLE_CLIENT_ID = "391679448350-o2l0qve4cb9h4mbouur6vj26i5dih4r2.apps.googleusercontent.com";
+
 const GOOGLE_FIT_SCOPES = [
   'https://www.googleapis.com/auth/fitness.activity.read',
   'https://www.googleapis.com/auth/fitness.body.read',
